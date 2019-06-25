@@ -3,7 +3,13 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  //styleUrls: ['./app.component.css']
+  styles : [`
+    h2{
+    color : aqua;
+    }
+    `
+  ]
 })
 export class AppComponent {
   title = 'Login application';
